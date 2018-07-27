@@ -1,185 +1,145 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Traditional Setup vs. Pairing vs. Mobbing – An Experiment for Testers and Developers</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Tutorial CAST 2018</h1>
-      <h2 class="project-tagline">Traditional Setup vs. Pairing vs. Mobbing – An Experiment for Testers and Developers                      </h2>
-    </section>
-
-    <section class="main-content">
-      
-      <h1>
-<a id="links-for-the-qa-scenario" class="anchor" href="#links-for-the-qa-scenario" aria-hidden="true"><span class="octicon octicon-link"></span></a>Links for traditional setup</h1>
-      
-<hr>  
-<h1>
-<a id="links-for-traditional" class="anchor" href="#links-for-traditional" aria-hidden="true"><span class="octicon octicon-link"></span></a>Links for Traditional</h1>
-
-<ul>
-  <li><a href="http://fixturefinder-traditional.herokuapp.com/">Link to application</a></li>
-</ul>
-
-<hr>
-<h1>
-<a id="links-for-pairing" class="anchor" href="#links-for-pairing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Links for Pairing</h1>
-
-<ul>
-  <li><a href="https://github.com/EmbeddedTester/fixturefinder-pairing" target="_blank">Github repo for pairing</a></li>
-  <li><a href="http://embeddedtester.github.io/DevToolsSetup/" target="_blank">How to setup Chrome Dev Tools</a></li>
-  <li><a href="https://gist.github.com/jordanpoulton/607a8854673d9f22c696">Pair Programming Role Definitions - Driver:Navigator</a></li>  
-  <!--<li><a href="http://oss.jahed.io/agility/timer.html">Timer application</a></li> -->  
-  <!--<li><a href="https://www.surveymonkey.de/r/HKDXXNP">Survey about Pairing/Mobbing results</a></li> -->   
-</ul>
-
-<hr>
-<h1>
-<a id="links-for-mobbing" class="anchor" href="#links-for-mobbing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Links for Mobbing</h1>
-
-<ul>
-  <li><a href="https://github.com/EmbeddedTester/fixturefinder-mobbing" target="_blank">Github repo for mobbing</a></li>
-  <li><a href="http://embeddedtester.github.io/DevToolsSetup/" target="_blank">How to setup Chrome Dev Tools</a></li>
-  <li><a href="http://oss.jahed.io/agility/timer.html">Timer application</a></li>
-</ul>
-
-<hr>
-      
-<h1>
-<a id="links-for-the-embedded-scenario" class="anchor" href="#links-for-the-embedded-scenario" aria-hidden="true"><span class="octicon octicon-link"></span></a>General Links</h1>
-
-<ul>
-  <li><a href="http://embeddedtester.github.io/DevToolsShortcuts/" target="_blank">Shortcuts for Chrome Dev Tools</a></li>
-  <li><a href="https://fixture-finder-us.herokuapp.com" target="_blank">FixtureFinder Service description</a></li>  
-</ul>
-
-<hr>  
-
-<h1>
-<a id="Deployment to Heroku" class="anchor" href="#Deployment to Heroku" aria-hidden="true"><span class="octicon octicon-link"></span></a>Deployment to Heroku</h1>
-    <p>If you want to deploy to Heroku, you need to do the following steps:</p>
-<ul>
-  <li>Fork the <a href="https://github.com/EmbeddedTester/fixturefinder-traditional" target="_blank">Github repo for traditional</a></li>
-  <li>Create an account on Heroku <a href="https://www.heroku.com/" target="_blank"></a></li>
-  <li>Create an app on Heroku</li>
-  <li>On the deploy tab in Heroku, select Github and authorize Heroku to access your Github account</li>
-  <li>Setup automatic deployment, every push to your Github fork will then be automatically deployed to Heroku</li>  
-</ul>
-
-<hr>  
-<!--
-<h1>
-<a id="link-to-slides" class="anchor" href="#link-to-slides" aria-hidden="true"><span class="octicon octicon-link"></span></a>Slides used at Let's Test SA 2017</h1>
-<ul>
-<li><a href="https://docs.google.com/presentation/d/1Pc7jgRCLEBbT1W2zuMxV-3DrpsGZJisB_wGc3PU5rH0/edit#slide=id.p">Slides Experiment Pairing/Mobbing(Monday workshop)</a></li>  
-  <li><a href="https://docs.google.com/presentation/d/11lnqvlPbOmcKpX6mBddkxue10ApVOzxiVMiwPyOHihw/edit#slide=id.p">Slides Dev Tools (Sunday workshop)</a></li>  
-</ul>
-<hr>
-<h1>
-<a id="link-to-evaluation" class="anchor" href="#link-to-evaluation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Experiment Evaluation Nordic Testing Days 2017</h1>
-<ul>
-<li><a href="https://embeddedtester.github.io/Experiment-Evaluation">Experiment Evaluation from Nordic Testing Days 2017</a></li>  
-</ul>
-<hr>           
-<!--
-<h1>
-<a id="links-for-mobbing" class="anchor" href="#links-for-mobbing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Links for Mobbing</h1>
-
-<ul>
-<li><a href="https://github.com/EmbeddedTestingWorkshop/NTD_Mobbing_GroupA">Group A: Github repo for mobbing</a></li>  
-<li><a href="https://github.com/EmbeddedTestingWorkshop/NTD_Mobbing_GroupB">Group B: Github repo for mobbing</a></li>    
-<li><a href="http://oss.jahed.io/agility/timer.html">Timer application</a></li>  
-<li><a href="http://embeddedtester.github.io/UserStories">User stories to extend the application</a></li>
-<li><a href="https://www.surveymonkey.de/r/H7L6ZSD">Survey about Mobbing results</a></li>  
-</ul>
-
-<hr>      
-      
-<h1>
-<a id="link-to-calculation" class="anchor" href="#link-to-calculation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Spreadsheet with calculation</h1>
-
-<ul>
-<li><a href="https://docs.google.com/spreadsheets/d/1VeSQ0fmO4KNt4YzDla0Zlr54RPscvbra3s5PhQGY8Zc/edit?usp=sharing">Spreadsheet with cost calculation</a></li>  
-<p>This is from the book "Mob Programming" by Woody Zuill and Kevin Meadows, see chapter 3.10 A Simple Cost Analysis of Mob Programming</p>
-  <p>We just added the pairing column as well.</p>  
-</ul>
-
-<hr>      
-
-<h1>
-<a id="link-to-slides" class="anchor" href="#link-to-slides" aria-hidden="true"><span class="octicon octicon-link"></span></a>Slides used at Nordic Testing Days 2017</h1>
-
-<ul>
-<li><a href="https://docs.google.com/presentation/d/1bwDnsDZbpQP9Yj9S3kiO-sABSOUtIJiuxhixnSQoXHk/edit?usp=sharing">Slides</a></li>  
-
-</ul>
-
-<hr>       
-
-<h1>
-<a id="link-to-evaluation" class="anchor" href="#link-to-evaluation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Experiment Evaluation Nordic Testing Days 2017</h1>
-
-<ul>
-<li><a href="https://embeddedtester.github.io/Experiment-Evaluation">Experiment Evaluation</a></li>  
-
-</ul>
-
-<hr>       
--->      
-
-<!--
-<h1>
-<a id="feedback" class="anchor" href="#feedback" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feedback</h1>
-
-<p>It would be great if you give feedback after the workshop:</p>
-
-<ul>
-<li><a href="https://www.surveymonkey.com/r/LQD67KJ">Feedback Survey</a></li>
-</ul>
-
-<hr>
--->
-      
-<h1>
-<a id="learn-more" class="anchor" href="#learn-more" aria-hidden="true"><span class="octicon octicon-link"></span></a>Learn more</h1>
-
-<p>Here are some resources to learn more:</p>
-
-<ul>
-<li><a href="http://www.lisihocke.com/2017/04/our-teams-first-mobbing-session.html">Blog post about first mob programming session with lots of links about mob programming</a></li> 
-<li><a href="https://leanpub.com/mobprogramming">Book about mob programming (contains the cost calculation example)</a></li> 
-<li><a href="http://www.youtube.com/watch?v=kVSo4buDAEE">Improving Your Productivity With The Chrome DevTools</a></li>
-<li><a href="http://www.codecademy.com/learn">codecademy</a></li>
-<li><a href="https://www.codeschool.com/?mbsy_source=00a9e084-9249-4258-9154-c9971d8c8d0f&amp;campaignid=2212&amp;mbsy=c7GcN_8">CodeSchool</a></li>
-<li><a href="http://www.slideshare.net/ilari/psychology-and-engineering-of-testing">Psychology and Engineering of Testing</a></li>
-<li><a href="https://vimeo.com/111866368">What do you mean "Agile Tester"?</a></li>
-<li><a href="https://vimeo.com/111039383">Waiter, There's Test In My Dev</a></li>
-<li><a href="http://www.infoq.com/news/2015/03/agile-testers-influence">Agile is Giving Testers More Influence</a></li>
-</ul>
-
-<hr>
-
-<h1>
-<a id="usage-of-the-material" class="anchor" href="#usage-of-the-material" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage of the material</h1>
-
-<p>Feel free to use the material linked here for yourself or your team. If you decide to use it, it would be great if you can drop us a short message on how you are using the material and give us feedback. Please use the following mail address: <a href="mailto:EmbeddedTesterWorkshop@gmail.com">EmbeddedTesterWorkshop@gmail.com</a></p>
-
-<p>We are considering to extend the workshop into a full-day or two day workshop which we would offer commercially. These workshops would include more time for the exercises and additional topics like Test Reporting or how to use git. Send us a message if you are interested: <a href="mailto:EmbeddedTesterWorkshop@gmail.com">EmbeddedTesterWorkshop@gmail.com</a></p>
-
-      <footer class="site-footer">
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			Traditional Setup vs. Pairing vs. Mobbing – An Experiment for Testers and Developers
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+	</head>
+	<body>
+		<section class="page-header">
+			<h1 class="project-name">
+				Tutorial CAST 2018
+			</h1>
+			<h2 class="project-tagline">
+				Traditional Setup vs. Pairing vs. Mobbing – An Experiment for Testers and Developers
+			</h2>
+		</section>
+		<section class="main-content">
+			<h1>
+				<a id="links-for-traditional" class="anchor" href="#links-for-traditional" aria-hidden="true"></a>Links for Traditional
+			</h1>
+			<ul>
+				<li>
+					<a href="http://fixturefinder-traditional.herokuapp.com/">Link to application</a>
+				</li>
+			</ul>
+			<hr>
+			<h1>
+				<a id="links-for-pairing" class="anchor" href="#links-for-pairing" aria-hidden="true"></a>Links for Pairing
+			</h1>
+			<ul>
+				<li>
+					<a href="https://github.com/EmbeddedTester/fixturefinder-pairing" target="_blank">Github repo for pairing</a>
+				</li>
+				<li>
+					<a href="http://embeddedtester.github.io/DevToolsSetup/" target="_blank">How to setup Chrome Dev Tools</a>
+				</li>
+				<li>
+					<a href="https://gist.github.com/jordanpoulton/607a8854673d9f22c696">Pair Programming Role Definitions - Driver:Navigator</a>
+				</li>
+			</ul>
+			<hr>
+			<h1>
+				<a id="links-for-mobbing" class="anchor" href="#links-for-mobbing" aria-hidden="true"></a>Links for Mobbing
+			</h1>
+			<ul>
+				<li>
+					<a href="https://github.com/EmbeddedTester/fixturefinder-mobbing" target="_blank">Github repo for mobbing</a>
+				</li>
+				<li>
+					<a href="http://embeddedtester.github.io/DevToolsSetup/" target="_blank">How to setup Chrome Dev Tools</a>
+				</li>
+				<li>
+					<a href="http://oss.jahed.io/agility/timer.html">Timer application</a>
+				</li>
+			</ul>
+			<hr>
+			<h1>
+				<a id="links-for-the-embedded-scenario" class="anchor" href="#links-for-the-embedded-scenario" aria-hidden="true"></a>General Links
+			</h1>
+			<ul>
+				<li>
+					<a href="http://embeddedtester.github.io/DevToolsShortcuts/" target="_blank">Shortcuts for Chrome Dev Tools</a>
+				</li>
+				<li>
+					<a href="https://fixture-finder-us.herokuapp.com" target="_blank">FixtureFinder Service description</a>
+				</li>
+			</ul>
+			<hr>
+			<h1>
+				<a id="Deployment to Heroku" class="anchor" href="#Deployment%20to%20Heroku" aria-hidden="true"></a>Deployment to Heroku
+			</h1>
+			<p>
+				If you want to deploy to Heroku, you need to do the following steps:
+			</p>
+			<ul>
+				<li>Fork the <a href="https://github.com/EmbeddedTester/fixturefinder-traditional" target="_blank">Github repo for traditional</a>
+				</li>
+				<li>Create an account on Heroku <a href="https://www.heroku.com/" target="_blank"></a>
+				</li>
+				<li>Create an app on Heroku
+				</li>
+				<li>On the deploy tab in Heroku, select Github and authorize Heroku to access your Github account
+				</li>
+				<li>Setup automatic deployment, every push to your Github fork will then be automatically deployed to Heroku
+				</li>
+			</ul>
+			<hr>
+			<!--
+				<h1>
+				<a id="learn-more" class="anchor" href="#learn-more" aria-hidden="true"></a>Learn more
+			</h1>
+			<p>
+				Here are some resources to learn more:
+			</p>
+			<ul>
+				<li>
+					<a href="http://www.lisihocke.com/2017/04/our-teams-first-mobbing-session.html">Blog post about first mob programming session with lots of links about mob programming</a>
+				</li>
+				<li>
+					<a href="https://leanpub.com/mobprogramming">Book about mob programming (contains the cost calculation example)</a>
+				</li>
+				<li>
+					<a href="http://www.youtube.com/watch?v=kVSo4buDAEE">Improving Your Productivity With The Chrome DevTools</a>
+				</li>
+				<li>
+					<a href="http://www.codecademy.com/learn">codecademy</a>
+				</li>
+				<li>
+					<a href="https://www.codeschool.com/?mbsy_source=00a9e084-9249-4258-9154-c9971d8c8d0f&amp;campaignid=2212&amp;mbsy=c7GcN_8">CodeSchool</a>
+				</li>
+				<li>
+					<a href="http://www.slideshare.net/ilari/psychology-and-engineering-of-testing">Psychology and Engineering of Testing</a>
+				</li>
+				<li>
+					<a href="https://vimeo.com/111866368">What do you mean "Agile Tester"?</a>
+				</li>
+				<li>
+					<a href="https://vimeo.com/111039383">Waiter, There's Test In My Dev</a>
+				</li>
+				<li>
+					<a href="http://www.infoq.com/news/2015/03/agile-testers-influence">Agile is Giving Testers More Influence</a>
+				</li>
+			</ul>
+			<hr>
+			<h1>
+				<a id="usage-of-the-material" class="anchor" href="#usage-of-the-material" aria-hidden="true"></a>Usage of the material
+			</h1>
+			<p>
+				Feel free to use the material linked here for yourself or your team. If you decide to use it, it would be great if you can drop us a short message on how you are using the material and give us feedback. 				Please use the following mail address: <a href="mailto:EmbeddedTesterWorkshop@gmail.com">EmbeddedTesterWorkshop@gmail.com</a>
+			</p>
+			<p>
+				We are considering to extend the workshop into a full-day or two day workshop which we would offer commercially. These workshops would include more time for the exercises and additional topics like Test 				Reporting or how to use git. Send us a message if you are interested: <a href="mailto:EmbeddedTesterWorkshop@gmail.com">EmbeddedTesterWorkshop@gmail.com</a>
+			</p>
+			<footer class="site-footer">
+				<span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a 				href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+			</footer>
+		</section>
+	</body>
 </html>
