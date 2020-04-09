@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			How Developer Tools can help you test
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+	</head>
+	<body>
+		<section class="page-header">
+			<h1 class="project-name">
+				How Developer Tools can help you test
+			</h1>
+			<h2 class="project-tagline">
+				TestBash Germany 2019
+			</h2>
+		</section>
+		<section class="main-content">
+			<h1>
+				<a id="links-for-traditional" class="anchor" href="#links-for-traditional" aria-hidden="true"></a>Link for Exploring
+			</h1>
+			<ul>
+				<li>
+					<a href="http://fixturefinder-pairing.herokuapp.com/" target="_blank">Link to application</a>
+				</li>
+			</ul>
+			<hr>
+			<h1>
+				<a id="links-for-drive" class="anchor" href="#links-for-traditional" aria-hidden="true"></a>Link to upload model
+			</h1>
+			<ul>
+				<li>
+					<a href="http://goo.gl/6K8qK3" target="_blank">Google Drive to upload your model</a>
+				</li>
+			</ul>
+			<hr>
+			<h1>
+				<a id="link-to-slides" class="anchor" href="#links-to-slides" aria-hidden="true"></a>Link to slides
+			</h1>
+			<ul>
+				<li>
+					<a href="https://docs.google.com/presentation/d/1StVWS2Snh5PoLnglbHZ-iziNzhvdSw1VayJbyctOJPE/edit#slide=id.g29784d577b_0_0" target="_blank">Slides with tasks</a>
+				</li>
+			</ul>
+						
+				<!--
+				<li>
+					<a href="https://github.com/EmbeddedTester/fixturefinder-traditional" target="_blank">Github repo for traditional</a>
+				</li>
+				
+			</ul>
+			<hr>
+			<h1>
+				<a id="links-for-pairing" class="anchor" href="#links-for-pairing" aria-hidden="true"></a>Links for Pairing
+			</h1>
+			<ul>
+				<li>
+					<a href="https://github.com/EmbeddedTester/fixturefinder-pairing" target="_blank">Github repo for pairing</a>
+				</li>
+				<li>
+					<a href="https://gist.github.com/jordanpoulton/607a8854673d9f22c696">Pair Programming Role Definitions - Driver:Navigator</a>
+				</li>
+			</ul>
+			<hr>
+			<h1>
+				<a id="links-for-mobbing" class="anchor" href="#links-for-mobbing" aria-hidden="true"></a>Links for Mobbing
+			</h1>
+			<ul>
+				<li>
+					<a href="https://github.com/EmbeddedTester/fixturefinder-mobbing" target="_blank">Github repo for mobbing</a>
+				</li>
+				<li>
+					<a href="http://oss.jahed.io/agility/timer.html" target="_blank">Timer application</a>
+				</li>
+			</ul>
+			-->
+			<hr>
+			<h1>
+				<a id="DevToolsSetup" class="anchor" href="#DevToolsSetup" aria-hidden="true"></a>Chrome Dev Tools Setup
+			</h1>	
+			<ul>
+				<li>
+					<a href="https://github.com/EmbeddedTester/fixturefinder-pairing" target="_blank">Github repository</a>
+				</li>
+				<li>
+					<a href="http://embeddedtester.github.io/DevToolsSetup/" target="_blank">How to setup Chrome Dev Tools</a>
+				</li>
+			</ul>
+			<hr>
+			<h1>
+				<a id="links-for-the-embedded-scenario" class="anchor" href="#links-for-the-embedded-scenario" aria-hidden="true"></a>General Links
+			</h1>
+			<ul>
+				<li>
+					<a href="http://embeddedtester.github.io/DevToolsShortcuts/" target="_blank">Shortcuts for Chrome Dev Tools</a>
+				</li>
+				<li>
+					<a href="http://fixturefinder-service.herokuapp.com" target="_blank">FixtureFinder Service description</a>
+				</li>
+			</ul>
+			<hr>	
+			<h1>
+				<a id="Postman" class="anchor" href="#Postman" aria-hidden="true"></a>Setup Postman
+			</h1>
+			<p>
+				You can use Postman to make service calls:
+			</p>
+			<ul>
+				<li>Install <a href="https://www.getpostman.com/" target="_blank">Postman</a>
+				</li>
+				<li>Start Postman and select Import (next to New button)
+				</li>
+				<li>Select import by URL and enter: http://fixturefinder-service.herokuapp.com/v2/api-docs
+				</li>
+				<li>You will now have a collection with service calls
+				</li>
+				<li>Right click on the collection and select "Edit"
+				</li>
+				<li>Select the tab "Variables" and update baseUrl to https://fixturefinder-service.herokuapp.com/
+				</li>
+				
+			</ul>
+			<hr>
+			<h1>
+				<a id="DeploymentHeroku" class="anchor" href="#Deployment%20to%20Heroku" aria-hidden="true"></a>Deployment to Heroku
+			</h1>
+			<p>
+				If you want to deploy to Heroku, you need to do the following steps:
+			</p>
+			<ul>
+				<li>Fork the Github repo, see above for the different links for each setup</a>
+				</li>
+				<li>Create an account on Heroku <a href="https://www.heroku.com/" target="_blank"></a>
+				</li>
+				<li>Create an app on Heroku
+				</li>
+				<li>On the deploy tab in Heroku, select Github and authorize Heroku to access your Github account
+				</li>
+				<li>Setup automatic deployment, every push to your Github fork will then be automatically deployed to Heroku
+				</li>
+			</ul>
+			<hr>	
+			<h1>
+				<a id="learn-more" class="anchor" href="#learn-more" aria-hidden="true"></a>Learn more
+			</h1>
+			<p>
+				Here are some resources to learn more:
+			</p>
+			<ul>
+				<!--
+				<li>
+					<a href="http://www.lisihocke.com/2017/04/our-teams-first-mobbing-session.html">Blog post about first mob programming session with lots of links about mob programming</a>
+				</li>
+				<li>
+					<a href="https://leanpub.com/mobprogramming">Book about mob programming (contains the cost calculation example)</a>
+				</li>
+				-->
+				<li>
+					<a href="http://www.youtube.com/watch?v=kVSo4buDAEE">Improving Your Productivity With The Chrome DevTools</a>
+				</li>
+				<li>
+					<a href="http://www.codecademy.com/learn">codecademy</a>
+				</li>
+				<li>
+					<a href="https://www.codeschool.com/?mbsy_source=00a9e084-9249-4258-9154-c9971d8c8d0f&amp;campaignid=2212&amp;mbsy=c7GcN_8">CodeSchool</a>
+				</li>
+				<!--
+				<li>
+					<a href="http://www.slideshare.net/ilari/psychology-and-engineering-of-testing">Psychology and Engineering of Testing</a>
+				</li>
+				<li>
+					<a href="https://vimeo.com/111866368">What do you mean "Agile Tester"?</a>
+				</li>
+				<li>
+					<a href="https://vimeo.com/111039383">Waiter, There's Test In My Dev</a>
+				</li>
+				<li>
+					<a href="http://www.infoq.com/news/2015/03/agile-testers-influence">Agile is Giving Testers More Influence</a>
+				</li>
+				-->
+			</ul>
+			<hr>
+			<h1>
+				<a id="usage-of-the-material" class="anchor" href="#usage-of-the-material" aria-hidden="true"></a>Usage of the material
+			</h1>
+			<p>
+				Feel free to use the material linked here for yourself or your team. If you decide to use it, it would be great if you can drop us a short message on how you are using the material and give us feedback. 				Please use the following mail address: <a href="mailto:EmbeddedTesterWorkshop@gmail.com">EmbeddedTesterWorkshop@gmail.com</a>
+			</p>
+			<p>
+				We are considering to extend the workshop into a full-day or two day workshop which we would offer commercially. These workshops would include more time for the exercises and additional topics like Test 				Reporting or how to use git. Send us a message if you are interested: <a href="mailto:EmbeddedTesterWorkshop@gmail.com">EmbeddedTesterWorkshop@gmail.com</a>
+			</p>
+			<footer class="site-footer">
+				<span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a 				href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+			</footer>
+		</section>
+	</body>
+</html>
